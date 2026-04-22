@@ -3,25 +3,25 @@ import { FaChevronDown } from "react-icons/fa";
 
 const faqs = [
   {
-    question: "What services does Value Gold offer?",
+    question: "What services does Harshdeep Jewellers offer?",
     answer:
-      "Value Gold buys gold and also helps release pledged gold by purchasing it at the best market value.",
+      "Harshdeep Jewellers buys gold and also helps release pledged gold by purchasing it at the best market value.",
   },
   {
     question: "What is the best way to sell gold?",
-    answer: "Visit Value Gold for instant evaluation and best price.",
+    answer: "Visit Harshdeep Jewellers for instant evaluation and best price.",
   },
   {
-    question: "Why should Value Gold be your choice to sell gold?",
+    question: "Why should Harshdeep Jewellers be your choice to sell gold?",
     answer: "Because of transparency, best rates, and instant payment.",
   },
   {
     question: "Where can I sell gold near me?",
-    answer: "You can visit any Value Gold branch near you.",
+    answer: "You can visit any Harshdeep Jewellers branch near you.",
   },
   {
     question: "Where to sell gold?",
-    answer: "Sell gold at trusted buyers like Value Gold.",
+    answer: "Sell gold at trusted buyers like Harshdeep Jewellers.",
   },
   {
     question: "How soon can pledged gold be released?",
@@ -33,14 +33,14 @@ const faqs = [
   },
   {
     question: "Which is the best Gold buying Store?",
-    answer: "Value Gold is one of the best gold buyers.",
+    answer: "Harshdeep Jewellers is one of the best gold buyers.",
   },
   {
     question: "What documents are required to sell gold?",
     answer: "Valid ID proof is required.",
   },
   {
-    question: "How to contact Value Gold?",
+    question: "How to contact Harshdeep Jewellers?",
     answer: "You can call or visit the nearest branch.",
   },
 ];

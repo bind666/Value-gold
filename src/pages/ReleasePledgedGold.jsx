@@ -12,7 +12,7 @@ const ReleasePledgedGold = () => {
         "Once the basic details and documents are checked, we start the release process right away. Our aim is to make it quick and simple for you.",
     },
     {
-      question: "Will someone from Value Gold help me with the release?",
+      question: "Will someone from Harshdeep Jewellers help me with the release?",
       answer:
         "Yes. A team member will guide you through the steps and help you complete the process smoothly.",
     },
@@ -133,7 +133,7 @@ const ReleasePledgedGold = () => {
             </div>
 
             <p className="text-gray-700 text-sm sm:text-base mb-4 leading-relaxed">
-              Looking to release pledged gold? At Value Gold, we make the process
+              Looking to release pledged gold? At Harshdeep Jewellers, we make the process
               simple, transparent, and rewarding. With over 120+ years of trust
               and expertise, we help you unlock the true value of your pledged
               gold through a quick and reliable release process.
@@ -173,7 +173,7 @@ const ReleasePledgedGold = () => {
               </p>
 
               <p>
-                Let Value Gold assist you in releasing your pledged gold with
+                Let Harshdeep Jewellers assist you in releasing your pledged gold with
                 confidence and turning it into instant value today.
               </p>
             </div>
@@ -288,12 +288,12 @@ const ReleasePledgedGold = () => {
             </h2>
 
             <p className="text-gray-200 text-sm sm:text-base leading-relaxed mb-4">
-              Value Gold offers a fast, transparent, and reliable way to release
+              Harshdeep Jewellers offers a fast, transparent, and reliable way to release
               pledged gold with ease and confidence.
             </p>
 
             <p className="text-gray-200 text-sm sm:text-base leading-relaxed">
-              At Value Gold, we understand that releasing pledged gold can feel
+              At Harshdeep Jewellers, we understand that releasing pledged gold can feel
               overwhelming. That's why we've designed a simple and secure
               process that ensures a smooth experience from start to finish.
               Whether you want to release pledged gold or are searching for
@@ -360,7 +360,7 @@ const ReleasePledgedGold = () => {
                   className="mt-1 accent-brand-navy"
                 />
                 <p>
-                  I authorize Value Gold and its representatives to contact me
+                  I authorize Harshdeep Jewellers and its representatives to contact me
                   via Call, SMS, Email, or WhatsApp regarding their products and
                   offers.
                 </p>

@@ -10,7 +10,7 @@ const About = () => {
       <section className="w-full">
         <img
           src="https://valuegold.com/wp-content/uploads/2025/09/Legacy_banner.jpg.webp"
-          alt="Value Gold Legacy"
+          alt="Harshdeep Jewellers Legacy"
           className="w-full h-auto block"
         />
       </section>
@@ -28,16 +28,16 @@ const About = () => {
             Established in 1901, Caps Gold has built a proud legacy and has grown
             into one of India's most trusted gold and silver bullion merchants.
             We are committed to accountability, integrity, and reliability.
-            Continuing this legacy, we founded Value Gold, a company that offers
+            Continuing this legacy, we founded Harshdeep Jewellers, a company that offers
             modern financial solutions while staying true to the values that have
             guided us for over a century.
           </p>
 
           <p className="text-gray-700 text-sm sm:text-base leading-7">
-            Value Gold represents a thoughtful blend of heritage and innovation,
+            Harshdeep Jewellers represents a thoughtful blend of heritage and innovation,
             ensuring our customers receive solutions that meet their changing
             needs. Our long-standing expertise in gold transactions has helped
-            position Value Gold as a reliable and preferred choice for individuals
+            position Harshdeep Jewellers as a reliable and preferred choice for individuals
             looking to sell gold for instant money.
           </p>
         </div>

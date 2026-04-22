@@ -11,7 +11,7 @@ const team = [
 
 Recognizing the need for diversification, he played a pivotal role in establishing Kalasha Fine Jewels.
 
-With a vision to redefine trust and transparency, he introduced Value Gold with automated processes.`,
+With a vision to redefine trust and transparency, he introduced Harshdeep Jewellers with automated processes.`,
   },
   {
     name: "Mr. Chanda Akhil",
@@ -44,7 +44,7 @@ Her leadership blends modern strategy with traditional values.`,
 
 She drives innovation in customer engagement and online presence.
 
-Her approach ensures Value Gold stays ahead in the digital landscape.`,
+Her approach ensures Harshdeep Jewellers stays ahead in the digital landscape.`,
   },
 ];
 
@@ -103,7 +103,7 @@ const Management = () => {
         <div className="section-container">
           <img
             src="https://valuegold.com/wp-content/uploads/2025/08/Directors.webp"
-            alt="Value Gold Directors"
+            alt="Harshdeep Jewellers Directors"
             className="w-full rounded-xl shadow-lg"
           />
         </div>

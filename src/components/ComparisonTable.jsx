@@ -62,7 +62,7 @@ const ComparisonTable = () => {
         {/* Heading */}
         <div className="section-heading">
           <div className="section-heading-line"></div>
-          <h2>Value Gold vs Other Gold Buyers</h2>
+          <h2>Harshdeep Jewellers vs Other Gold Buyers</h2>
           <div className="section-heading-line"></div>
         </div>
 
@@ -72,7 +72,7 @@ const ComparisonTable = () => {
           {/* Header */}
           <div className="grid grid-cols-3 bg-brand-gold text-white font-semibold text-center py-4 text-sm md:text-base">
             <div>Feature</div>
-            <div>Value Gold</div>
+            <div>Harshdeep Jewellers</div>
             <div>Other Gold Buyers</div>
           </div>
 
@@ -87,7 +87,7 @@ const ComparisonTable = () => {
                 {item.feature}
               </div>
 
-              {/* Value Gold */}
+              {/* Harshdeep Jewellers */}
               <div className="flex items-center gap-2 text-green-700">
                 <FaCheck className="text-green-600 flex-shrink-0" />
                 <span>{item.value}</span>
@@ -112,11 +112,11 @@ const ComparisonTable = () => {
                 {item.feature}
               </div>
 
-              {/* Value Gold Row */}
+              {/* Harshdeep Jewellers Row */}
               <div className="flex items-start gap-2 px-4 py-3 border-b text-xs sm:text-sm">
                 <FaCheck className="text-green-600 flex-shrink-0 mt-0.5" />
                 <div>
-                  <span className="font-medium text-gray-700">Value Gold: </span>
+                  <span className="font-medium text-gray-700">Harshdeep Jewellers: </span>
                   <span className="text-green-700">{item.value}</span>
                 </div>
               </div>

@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 const events = [
   {
     title: "Events",
-    desc: "Award ceremonies, corporate milestones, and public appearances that highlight Value Gold's leadership in the gold industry.",
+    desc: "Award ceremonies, corporate milestones, and public appearances that highlight Harshdeep Jewellers's leadership in the gold industry.",
     icon: <FaCalendarAlt />,
     img: "https://valuegold.com/wp-content/uploads/2025/09/Awards-3.webp",
   },

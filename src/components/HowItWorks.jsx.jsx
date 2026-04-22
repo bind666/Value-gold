@@ -33,12 +33,12 @@ const HowItWorks = () => {
         <div className="text-center mb-10 sm:mb-12">
           <div className="section-heading mb-4">
             <div className="section-heading-line"></div>
-            <h2>VALUE GOLD - BEST GOLD BUYERS</h2>
+            <h2>HARSHDEEP JEWELLERS - BEST GOLD BUYERS</h2>
             <div className="section-heading-line"></div>
           </div>
 
           <p className="max-w-4xl mx-auto text-gray-700 leading-7 text-sm sm:text-base">
-            Selling gold becomes simple, seamless, and completely reliable with Value Gold. Our streamlined method begins with a detailed assessment of the quality of your gold...
+            Selling gold becomes simple, seamless, and completely reliable with Harshdeep Jewellers. Our streamlined method begins with a detailed assessment of the quality of your gold...
           </p>
         </div>
 

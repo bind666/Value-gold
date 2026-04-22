@@ -31,7 +31,7 @@ export default function GoldCalculator() {
             </div>
 
             <p className="text-gray-700 text-sm sm:text-base mb-4 sm:mb-6 leading-relaxed">
-              Discover the actual value of your gold effortlessly from the comfort of your home with Value Gold's
+              Discover the actual value of your gold effortlessly from the comfort of your home with Harshdeep Jewellers's
               <span className="text-brand-navy font-medium"> Old Gold Calculator</span>.
             </p>
 
@@ -43,7 +43,7 @@ export default function GoldCalculator() {
             </ol>
 
             <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
-              By leveraging <span className="text-brand-navy font-medium">Value Gold's</span> Gold Calculator,
+              By leveraging <span className="text-brand-navy font-medium">Harshdeep Jewellers's</span> Gold Calculator,
               you gain access to a powerful tool that simplifies the process of gold valuation.
             </p>
           </div>
@@ -88,7 +88,7 @@ export default function GoldCalculator() {
 
               <div className="flex items-start gap-2 text-xs text-gray-300">
                 <input type="checkbox" className="mt-1" />
-                <p>I authorize Value Gold to contact me via Call, SMS, Email. <span className="text-red-400">(Required)</span></p>
+                <p>I authorize Harshdeep Jewellers to contact me via Call, SMS, Email. <span className="text-red-400">(Required)</span></p>
               </div>
 
               <button type="submit" className="btn-gold w-full py-3">Submit</button>

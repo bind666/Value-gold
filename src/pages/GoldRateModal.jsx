@@ -36,7 +36,7 @@ const GoldRateModal = ({ isOpen, onClose }) => {
           <div className="flex items-start gap-2 text-xs text-gray-500">
             <input type="checkbox" className="mt-1 accent-brand-navy" />
             <p>
-              I authorize Value Gold and its representatives to contact me via
+              I authorize Harshdeep Jewellers and its representatives to contact me via
               Call, SMS, Email, RCS or WhatsApp regarding their products and offers.
             </p>
           </div>

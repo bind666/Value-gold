@@ -9,7 +9,7 @@ const services = [
   },
   {
     title: "Release Pledged Gold",
-    desc: "Escape the burden of mounting interest rates. Release your pledged gold stress-free with Value Gold and receive the remaining value smoothly and quickly.",
+    desc: "Escape the burden of mounting interest rates. Release your pledged gold stress-free with Harshdeep Jewellers and receive the remaining value smoothly and quickly.",
     img: "https://valuegold.com/wp-content/uploads/2024/05/760x272-release-pledge.webp",
     bg: "bg-brand-gold",
   },
@@ -32,7 +32,7 @@ const ServicesSection = () => {
 
           {/* Description */}
           <p className="max-w-4xl mx-auto text-gray-700 leading-7 text-sm sm:text-base">
-            Value Gold recognized as one of the best gold buyers in India, we provide a seamless and trustworthy experience for those looking to sell their gold. With 120+ years of heritage from the CapsGold legacy, we ensure that our customers receive the best market value for their gold and silver items. With multiple branches across major cities, Value Gold is your trusted destination for selling gold with ease and confidence.
+            Harshdeep Jewellers recognized as one of the best gold buyers in India, we provide a seamless and trustworthy experience for those looking to sell their gold. With 120+ years of heritage from the CapsGold legacy, we ensure that our customers receive the best market value for their gold and silver items. With multiple branches across major cities, Harshdeep Jewellers is your trusted destination for selling gold with ease and confidence.
           </p>
         </div>
 

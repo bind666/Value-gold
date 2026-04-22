@@ -34,29 +34,17 @@ export default function Navbar() {
       name: "OUR LEGACY",
       children: [
         { name: "ABOUT US", path: "/about" },
-        { name: "MANAGEMENT", path: "/management" },
         { name: "AWARDS", path: "/awards" },
       ],
     },
     {
       name: "OUR SERVICES",
       children: [
+        { name: "GOLD LOAN", path: "/gold-loan" },
         { name: "SELL GOLD", path: "/sell-gold" },
         { name: "RELEASE PLEDGED GOLD", path: "/release-gold" },
         { name: "MOBILE OFFICE", path: "/mobile-office" },
       ],
-    },
-    {
-      name: "EXPERIENCE",
-      children: [
-        { name: "NEWS / MEDIA", path: "/experience" },
-        { name: "PRESS RELEASES", path: "/press-releases" },
-        { name: "EVENTS", path: "/events-openings" },
-      ],
-    },
-    {
-      name: "PARTNER WITH US",
-      path: "/partner",
     },
     {
       name: "BLOG",
@@ -81,7 +69,7 @@ export default function Navbar() {
           <Link to="/" className="flex items-center flex-shrink-0">
             <img
               src="/logo.jpg"
-              alt="Value Gold Logo"
+              alt="Harshdeep Jewellers Logo"
               className="h-10 sm:h-12 lg:h-14 w-auto object-contain"
             />
           </Link>
@@ -202,7 +190,7 @@ export default function Navbar() {
               >
                 <img
                   src="/logo.jpg"
-                  alt="Value Gold Logo"
+                  alt="Harshdeep Jewellers Logo"
                   className="h-10 w-auto object-contain"
                 />
               </Link>

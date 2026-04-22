@@ -4,26 +4,26 @@ import { FaUsers, FaMapMarkedAlt, FaBuilding, FaBus } from "react-icons/fa";
 const data = [
   {
     icon: <FaUsers />,
-    number: "10,000+",
-    label: "Customers",
+    number: "500+",
+    label: "Happy Customers",
     bg: "bg-brand-navy",
   },
   {
     icon: <FaMapMarkedAlt />,
-    number: "2",
-    label: "States",
+    number: "1",
+    label: "State",
     bg: "bg-brand-gold",
   },
   {
     icon: <FaBuilding />,
-    number: "19+",
-    label: "Branches",
+    number: "1",
+    label: "Branch",
     bg: "bg-brand-navy",
   },
   {
     icon: <FaBus />,
-    number: "",
-    label: "First Ever Mobile Branch In Telugu States",
+    number: "100%",
+    label: "Transparent & Trusted Process",
     bg: "bg-brand-gold",
   },
 ];

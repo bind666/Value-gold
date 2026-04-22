@@ -4,15 +4,15 @@ import Footer from "../components/Footer";
 const heroImages = [
   {
     src: "https://valuegold.com/wp-content/uploads/2025/11/Van-3.webp",
-    alt: "Value Gold mobile office van - exterior view",
+    alt: "Harshdeep Jewellers mobile office van - exterior view",
   },
   {
     src: "https://valuegold.com/wp-content/uploads/2025/11/Van-2.webp",
-    alt: "Value Gold mobile office van - side view",
+    alt: "Harshdeep Jewellers mobile office van - side view",
   },
   {
     src: "https://valuegold.com/wp-content/uploads/2025/11/van-1.webp",
-    alt: "Value Gold mobile office van - front view",
+    alt: "Harshdeep Jewellers mobile office van - front view",
   },
 ];
 
@@ -132,7 +132,7 @@ export default function MobileOfficePage() {
             <div className="flex justify-center">
               <img
                 src="https://valuegold.com/wp-content/uploads/2024/07/valuegold-van.png.webp"
-                alt="Value Gold mobile office van"
+                alt="Harshdeep Jewellers mobile office van"
                 className="w-full max-w-xl object-contain"
               />
             </div>
@@ -165,7 +165,7 @@ export default function MobileOfficePage() {
             </h2>
 
             <p className="text-gray-200 mb-6 text-sm sm:text-base leading-relaxed">
-              Value Gold brings convenience to your doorstep. Our mobile service
+              Harshdeep Jewellers brings convenience to your doorstep. Our mobile service
               ensures safe, transparent, and instant gold evaluation wherever
               you are.
             </p>
@@ -174,7 +174,7 @@ export default function MobileOfficePage() {
             <div className="mb-6">
               <img
                 src="https://valuegold.com/wp-content/uploads/2025/11/mobile-van4.webp"
-                alt="Value Gold mobile office service in action"
+                alt="Harshdeep Jewellers mobile office service in action"
                 className="w-full max-w-xl rounded-card shadow-card"
               />
             </div>
@@ -273,7 +273,7 @@ export default function MobileOfficePage() {
                   aria-label="Authorization consent"
                 />
                 <p>
-                  I authorize Value Gold and its representatives to contact me via Call,
+                  I authorize Harshdeep Jewellers and its representatives to contact me via Call,
                   SMS, Email, or WhatsApp regarding their products and offers.
                 </p>
               </div>

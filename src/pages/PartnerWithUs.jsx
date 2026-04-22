@@ -61,7 +61,7 @@ export default function PartnerWithUs() {
       <section className="w-full">
         <img
           src="https://valuegold.com/wp-content/uploads/2026/01/Valuegold_banner.webp"
-          alt="Partner with Value Gold"
+          alt="Partner with Harshdeep Jewellers"
           className="w-full h-auto block"
         />
       </section>
@@ -72,7 +72,7 @@ export default function PartnerWithUs() {
           <div className="text-center mb-8 sm:mb-12">
             <div className="section-heading mb-3">
               <div className="section-heading-line" />
-              <h2>Why Choose Value Gold?</h2>
+              <h2>Why Choose Harshdeep Jewellers?</h2>
               <div className="section-heading-line" />
             </div>
             <p className="text-brand-gold font-medium text-xs sm:text-sm">

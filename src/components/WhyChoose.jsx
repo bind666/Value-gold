@@ -49,7 +49,7 @@ const WhyChoose = () => {
         {/* Heading */}
         <div className="section-heading">
           <div className="section-heading-line"></div>
-          <h2>WHY CHOOSE VALUE GOLD?</h2>
+          <h2>WHY CHOOSE HARSHDEEP JEWELLERS?</h2>
           <div className="section-heading-line"></div>
         </div>
 
