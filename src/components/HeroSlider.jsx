@@ -6,16 +6,16 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 const images = [
-  "https://valuegold.com/wp-content/uploads/2025/12/banner.webp",
-  "https://valuegold.com/wp-content/uploads/2024/07/02-Desktop-Banner-1.webp",
-  "https://valuegold.com/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-18-at-5.47.39-PM.webp",
-  "https://valuegold.com/wp-content/uploads/2025/12/banner-1.webp",
-  "https://valuegold.com/wp-content/uploads/2025/11/Value-bnr.webp",
+  "/banner-1.jpeg",
+  "/banner-2.jpeg",
+  "/banner-3.jpeg",
+  "/banner-4.jpeg",
+  "/banner-5.jpeg",
 ];
 
 export default function HeroSlider() {
   return (
-    <div className="w-full">
+    <div className="w-full h-screen">
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}
         spaceBetween={0}
@@ -24,14 +24,20 @@ export default function HeroSlider() {
         autoplay={{ delay: 3000 }}
         pagination={{ clickable: true }}
         navigation={true}
-        className="w-full"
+        className="w-full h-full"
       >
         {images.map((img, index) => (
           <SwiperSlide key={index}>
             <img
               src={img}
               alt="banner"
-              className="w-full h-auto block"
+              className={`w-full h-screen block ${
+                img === "/banner-3.jpeg"
+                  ? "object-contain bg-black"
+                  : img === "/banner-1.jpeg"
+                  ? "object-cover object-[center_60%]"
+                  : "object-cover object-[center_10%]"
+              }`}
             />
           </SwiperSlide>
         ))}
