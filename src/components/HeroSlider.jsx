@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
@@ -5,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-const images = [
+const desktopImages = [
   "/banner-1.jpeg",
   "/banner-2.jpeg",
   "/banner-3.jpeg",
@@ -13,7 +14,25 @@ const images = [
   "/banner-5.jpeg",
 ];
 
+const mobileImages = [
+  "/mobile-banner-1.jpeg",
+  "/mobile-banner-2.jpeg",
+  "/mobile-banner-3.jpeg",
+  "/mobile-banner-4.jpeg",
+  "/mobile-banner-5.jpeg",
+];
+
 export default function HeroSlider() {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const images = isMobile ? mobileImages : desktopImages;
+
   return (
     <div className="w-full h-screen">
       <Swiper
@@ -23,7 +42,7 @@ export default function HeroSlider() {
         loop={true}
         autoplay={{ delay: 3000 }}
         pagination={{ clickable: true }}
-        navigation={true}
+        navigation={!isMobile}
         className="w-full h-full"
       >
         {images.map((img, index) => (
@@ -32,9 +51,9 @@ export default function HeroSlider() {
               src={img}
               alt="banner"
               className={`w-full h-screen block ${
-                img === "/banner-3.jpeg"
+                !isMobile && img === "/banner-3.jpeg"
                   ? "object-contain bg-black"
-                  : img === "/banner-1.jpeg"
+                  : !isMobile && img === "/banner-1.jpeg"
                   ? "object-cover object-[center_60%]"
                   : "object-cover object-[center_10%]"
               }`}
