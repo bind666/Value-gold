@@ -10,7 +10,7 @@ const services = [
   {
     title: "Release Pledged Gold",
     desc: "Escape the burden of mounting interest rates. Release your pledged gold stress-free with Harshdeep Jewellers and receive the remaining value smoothly and quickly.",
-    img: "https://valuegold.com/wp-content/uploads/2024/05/760x272-release-pledge.webp",
+    img: "/service-assets/release-pledge-english.png",
     bg: "bg-brand-gold",
   },
 ];

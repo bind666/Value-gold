@@ -109,7 +109,7 @@ const ReleasePledgedGold = () => {
       {/* HERO */}
       <section className="relative">
         <img
-          src="https://valuegold.com/wp-content/uploads/2024/12/Released-pledged-gold-Banner-2-1.png.webp"
+          src="/service-assets/release-gold-banner-english.png"
           className="w-full h-auto block"
           alt="Release pledged gold banner"
         />
